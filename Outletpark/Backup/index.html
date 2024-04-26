@@ -1,0 +1,425 @@
+<!DOCTYPE html>  <!-- Declaración del tipo de documento -->
+<html lang="en">  <!-- Inicio del elemento HTML con especificación del lenguaje -->
+
+<head>  <!-- Inicio del encabezado del documento -->
+    <title>Web_Adidas_Matias_Baez</title>  <!-- Título de la página -->
+    <meta charset="utf-8">  <!-- Configuración de la codificación de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">  <!-- Configuración de la vista del dispositivo -->
+
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">  <!-- Enlace al icono de Apple -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/faviconadidasxd.png">  <!-- Enlace al icono de la página -->
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+<!--
+    
+
+
+-->
+</head> <!-- Cierre del encabezado del documento -->
+
+<body>  <!-- Inicio del cuerpo del documento -->
+    <!-- Start Top Nav -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
+        <div class="container text-light">
+            <div class="w-100 d-flex justify-content-between">
+                <div>
+                    <i class="fa fa-envelope mx-2"></i>
+                   <!-- <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:info@company.com">info@company.com</a>  -->
+                    <i class="fa fa-phone mx-2"></i>
+                    <!--<a class="navbar-sm-brand text-light text-decoration-none" href="tel:010-020-0340">010-020-0340</a>   -->
+                </div>
+             
+            </div>
+        </div>
+    </nav>
+    <!-- Close Top Nav -->  
+
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <a class="navbar-brand align-self-center" href="index.html">
+                <img src="./assets/img/adidas2.png" alt="Logo de Viña Outlet Park" style="max-width: 100px; height: auto;">
+            </a>
+            >
+            
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+                <div class="flex-fill"> <!-- Contenedor flexible para la lista de enlaces -->
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto"> <!-- Lista de enlaces de navegación -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Tiendas</a> <!-- Enlace a la página de tiendas -->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Estilos</a> <!-- Enlace a la página de estilos -->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Proximos Lanzamientos</a>  <!-- Enlace a la página de próximos lanzamientos -->
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar align-self-center d-flex"> <!-- Contenedor flexible para elementos de la barra de navegación -->
+                    <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3"> <!-- Contenedor flexible para la búsqueda en dispositivos pequeños -->
+                        <div class="input-group"> <!-- Grupo de entrada para la búsqueda -->
+                            <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ..."> <!-- Campo de entrada para la búsqueda -->
+                            <div class="input-group-text"> <!-- Texto de grupo de entrada -->
+                                <i class="fa fa-fw fa-search"></i> <!-- Icono de búsqueda -->
+                            </div>
+                        </div>
+                    </div>
+                    <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search"> <!-- Icono de búsqueda visible en pantallas grandes -->
+                        <i class="fa fa-fw fa-search text-dark mr-2"></i> <!-- Icono de búsqueda -->
+                    </a>
+                    <a class="nav-icon position-relative text-decoration-none" href="#"> <!-- Icono de carrito de compras -->
+                        <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i> <!-- Icono de carrito de compras -->
+                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span> <!-- Número de elementos en el carrito -->
+                    </a>
+                    <a class="nav-icon position-relative text-decoration-none" href="#"> <!-- Icono de usuario -->
+                        <i class="fa fa-fw fa-user text-dark mr-3"></i> <!-- Icono de usuario -->
+                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span> <!-- Número de notificaciones del usuario -->
+                    </a>
+                </div>
+            </div>
+    
+        </div>v>
+
+        </div>
+    </nav>
+    <!-- Close Header -->
+
+    <!-- Modal -->
+    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document"> <!-- Diálogo del modal con diseño grande -->
+            <div class="w-100 pt-1 mb-5 text-right"> <!-- Contenedor para el botón de cerrar -->
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>  <!-- Botón de cerrar el modal -->
+            </div>
+            <form action="" method="get" class="modal-content modal-body border-0 p-0"> <!-- Formulario dentro del contenido del modal -->
+                <div class="input-group mb-2"> <!-- Grupo de entrada para la búsqueda --> 
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ..."> <!-- Campo de entrada para la búsqueda -->
+                    <button type="submit" class="input-group-text bg-success text-light"> <!-- Botón de envío del formulario -->
+                        <i class="fa fa-fw fa-search text-white"></i> <!-- Icono de búsqueda -->
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <!-- Start Banner Hero -->
+    <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel"> <!-- Carrusel de imágenes -->
+        <ol class="carousel-indicators">
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li> <!-- Indicador para la primera imagen -->
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li> <!-- Indicador para la segunda imagen --> 
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li><!-- Indicador para la tercera imagen --> 
+        </ol>
+        <div class="carousel-inner"> <!-- Contenedor del carrusel -->
+            <div class="carousel-item active"> <!-- Primer elemento del carrusel -->
+                <div class="container"> <!-- Contenedor del contenido -->
+                    <div class="row p-5"> <!-- Fila con padding -->
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last"> <!-- Columna con imagen centrada -->
+                            <img class="img-fluid mx-auto" src="./assets/img/neov2.jpeg" alt="" style="width: 300%; max-width: 300px;">  <!-- Primera --> <!-- Imagen con tamaño máximo -->
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">  <!-- Columna con texto -->
+                            <div class="text-align-left align-self-center"> <!-- Contenedor de texto -->
+                                <h1 class="h1 text-success"><b>Adidas</b> Es parte de ti</h1> <!-- Título principal -->
+                                <h3 class="h2">Nos importas tu... Y tu estilo!</h3> <!-- Subtítulo -->
+                                <p>
+                                    Aprovecha nuestros descuentos unicos e irresistibles! <!-- Texto -->
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!-- Otros elementos del carrusel con estructura similar -->
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid mx-auto" src="./assets/img/jennaadidas10-fotor-202.jpeg" alt="" style="width: 200%; max-width: 200px;">   <!-- 2da -->
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left">
+                                <h1 class="h1">Se parte del juego</h1>
+                                <h3 class="h2">Aprovecha Nuestros descuentos en todas nuestras prendas</h3>
+                                <p>
+                                    Descuentos en camisas deportivas!
+                                   
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid mx-auto" src="./assets/img/neov4-fotor-20240425174041.png" alt="" style="width: 200%; max-width: 300px;">  <!-- 3ra -->
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left">
+                                <h1 class="h1">Desde 1949 hasta hoy </h1>
+                                <h3 class="h2"> </h3>
+                                <p>
+                                    Lleva el color dentro de ti!...
+                                    Aprovecha el nuevo Stock de las Retro color 5x!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="next">
+            <i class="fas fa-chevron-right"></i>
+        </a>
+    </div>
+    <!-- End Banner Hero -->
+
+
+    <!-- Start Categories of The Month -->
+    <section class="container py-5">
+        <div class="row text-center pt-3">
+            <div class="col-lg-6 m-auto">
+                <h1 class="h1">Proximos Lanzamientos!</h1>
+                <p>
+                    Lo que no te puedes perder!...
+                    La innovacion de la mano de la tecnologia
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <a href="#"><img src="./assets/img/neov9jenna-fotor-20240425173627.png" class="rounded-circle img-fluid border"></a>
+                <h5 class="text-center mt-3 mb-3">Buzos</h5>
+                <p class="text-center"><a class="btn btn-success">Mas</a></p>
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <a href="#"><img src="./assets/img/neov3yeezy-fotor-20240425174145.png" class="rounded-circle img-fluid border"></a>
+                <h2 class="h5 text-center mt-3 mb-3">Calzado</h2>
+                <p class="text-center"><a class="btn btn-success">Mas</a></p>
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <a href="#"><img src="./assets/img/acceadidasp-fotor-20240425181613.png" class="rounded-circle img-fluid border"></a>
+                <h2 class="h5 text-center mt-3 mb-3">+ Accesorios</h2>
+                <p class="text-center"><a class="btn btn-success">Mas</a></p>
+            </div>
+        </div>
+    </section>
+    <!-- End Categories of The Month -->
+
+
+    <!-- Start Featured Product -->
+    <section class="bg-light">
+        <div class="container py-5">
+            <div class="row text-center py-3">
+                <div class="col-lg-6 m-auto">
+                    <h1 class="h1">Otros productos</h1>
+                    <p>
+                    Echa un vistazo a nuestros productos mas vendidos!...
+                    No te quedes sin l@s Tuyos!
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <a href="shop-single.html">
+                            <img src="./assets/img/gorrai-fotor-2024042518220.jpeg" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                </li>
+                                <li class="text-muted text-right">50%OFF!</li>
+                            </ul>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">Gorra NeoSky17</a>
+                            <p class="card-text">
+                                Lleva contgo el estilo unico, combina con tus conjuntos Adidas, se parte de la nueva Ola...
+                            </p>
+                            <p class="text-muted">Reviews (24)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <a href="shop-single.html">
+                            <img src="./assets/img/kadidas-fotor-20240425181818.png" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                </li>
+                                <li class="text-muted text-right">30%OFF!</li>
+                            </ul>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">Yeezy 700</a>
+                            <p class="card-text">
+                                Con una suela unica y comoda, pensada para tu estilo vaya de la mano con tu camino...
+                            </p>
+                            <p class="text-muted">Reviews (48)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <a href="shop-single.html">
+                            <img src="./assets/img/messiento10-fotor-20240425182735.jpeg" class="card-img-top" alt="...">
+
+                        </a>
+                        <div class="card-body">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                </li>
+                                <li class="text-muted text-right">65%OFF!</li>
+                            </ul>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">Indumentaria 2024 Inter Miami</a>
+                            <p class="card-text">
+                                Lleva a las estrellas Norteamericanas contigo...
+                            </p>
+                            <p class="text-muted">Reviews (74)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Featured Product -->
+
+
+ <!-- Start Footer --> <!-- Inicio del pie de página -->
+    <footer class="bg-dark" id="tempaltemo_footer"> <!-- Pie de página con fondo oscuro -->
+        <div class="container"> <!-- Contenedor -->
+            <div class="row"> <!-- Fila -->
+               <!-- Columna para información de contacto -->
+                <div class="col-md-4 pt-5"> <!-- Columna grande con relleno superior -->
+                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">Adidas</h2> <!-- Título del logotipo -->
+                    <ul class="list-unstyled text-light footer-link-list"> <!-- Lista sin viñetas para enlaces -->
+                        <li>
+                            <i class="fas fa-map-marker-alt fa-fw"></i>
+                            9537 Las Condes - Avenida Los Adidas <!-- Dirección -->
+                            <a class="text-decoration-none" href="tel:010-020-0340">010-020-0340</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-phone fa-fw"></i>
+                            <a class="text-decoration-none" href="tel:010-020-0340">010-020-0340</a> <!-- Número de teléfono -->
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope fa-fw"></i>
+                            <a class="text-decoration-none" href="mailto:info@company.com">info@adidaschile.com</a> <!-- Correo electrónico -->
+                        </li>
+                    </ul>
+                </div>
+                                <!-- texto de abajo -->
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Productos</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="#">2024</a></li>
+                        <li><a class="text-decoration-none" href="#">Sport Wear</a></li>
+                        <li><a class="text-decoration-none" href="#">Calzado Hombre</a></li>
+                        <li><a class="text-decoration-none" href="#">Calzado Mujer</a></li>
+                        <li><a class="text-decoration-none" href="#">Kids</a></li>
+                        <li><a class="text-decoration-none" href="#">Accesorios</a></li>
+                        <li><a class="text-decoration-none" href="#">Novedades/a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Mas Info</h2> 
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="#">Home</a></li>
+                        <li><a class="text-decoration-none" href="#">Sobre Nosotros</a></li>
+                        <li><a class="text-decoration-none" href="#">Tiendas</a></li>
+                        <li><a class="text-decoration-none" href="#">Preguntas Frecuentes</a></li>
+                        <li><a class="text-decoration-none" href="#">Contacto</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="row text-light mb-4">
+                <div class="col-12 mb-3">
+                    <div class="w-100 my-3 border-top border-light"></div>
+                </div>
+                <div class="col-auto me-auto">
+                    <ul class="list-inline text-left footer-icons">
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.facebook.com/adidasCL/?brand_redir=182162001806727"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/adidascl/?hl=es-la"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href=".........."><i class="fab fa-twitter fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://cl.linkedin.com/company/adidas"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-auto">
+                    <label class="sr-only" for="subscribeEmail">Email address</label>
+                    <div class="input-group mb-2">
+                        <input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Email address">
+                        <div class="input-group-text btn-success text-light">Mas sobre lo nuevo de Adidas</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-100 bg-black py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-12">
+                        <p class="text-left text-light">
+                            Copyright &copy; 2024 Adidas
+                            | Designed by <a rel="sponsored" href="https://templatemo.com" target="_blank">Matigol</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/templatemo.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <!-- End Script -->
+</body>
+
+</html>
