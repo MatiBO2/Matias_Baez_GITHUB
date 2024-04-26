@@ -1,0 +1,11 @@
+Evaluación N2 Programación Front End Matias Baez:
+
+- URL/Github:https://github.com/MatiBO2/Matias_Baez_GITHUB
+- Link/Onedrive:https://inacapmailcl-my.sharepoint.com/:f:/g/personal/matias_baez05_inacapmail_cl/Eo62h1n5tuJMpRP6ECkod5sB6yOK-HddmeF244ZtftgBWw?e=Yv4o5V
+
+Nota: Profesor respecto a la evaluación quería acotar que me apoye en una plantilla de boostrap, 
+Tratando de que esta ya tuviese un parecido al Mockup Escogido, de todas maneras trate de que se pareciera hasta un determinado punto, hay cosas que no supe hacer y no siempre pude resolver algunos problemas que me surgían en el camino. Use chatgpt para que me ayudara con los comentarios dentro del código y entender que hacia cada parte del código, lo demás todo lo hice investigando en los ppt y algunos portales en internet en gral. donde mas me sentí complicado fue en css, pero cambie lo que mas pude la apariencia de esta para parecer o acercarme a la idea de web que tenia en mente.
+
+Como ultimo dato, elimine muchos archivos que en esta ocasión no iba a utilizar pero de igual forma (en CSS sobre todo) quedaron algunos, dentro de "Backup" esta la carpeta "Assest" y dentro de esta esta css y img. Y opte por no eliminar dos carpetas mas como lo son Js, para utilizar una función que me gusto para la web.
+
+Saludos! 
